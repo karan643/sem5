@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <div class="container">
+        <nav class="navbar">
+            <div>
+                <a  class="login" href="#">
+                <img src="login2.png">
+                </a>
+                
+              </div>
+
+            <ul>
+                <li><a href="#home" alt="*">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#">appointment</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+              <div>
+                <a  class="my-cart" href="cart.html">
+                <img src="cart.png">
+                </a>
+                
+              </div>
+             
+              
+            </nav>
+      
+            <section id="home">
+                <section class="showcase">
+                <video  autoplay loop muted>
+                    <source src="production ID_4112541.mp4" type="video/mp4">
+                    
+                </video>
+                <div class="text-box">
+                    <h3>THE BARBER SHOP</h3>
+                </div>
+                
+                </section>
+              
+            </section>
+ 
+        <section id="about">
+            <h1>About</h1>
+            <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi, quis!</p>
+        </section>
+        <section id="service">
+            <h1>Service</h1>
+            <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi, quis!</p>
+        </section>
+        <section id="contact">
+            <h1>Contact</h1>
+            <p class="lead">We Will Reply As Soon As Posibble.</p>
+            <p class="lead">Have A Great Day.</p>
+            <h2>Contact Us</h2>
+            <form action="" method="POST">
+                <div id="contactform" class="form2">
+                    <input type="text" name="name" id="name" placeholder="Name" required>
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+                    <input type="number" name="number" id="number" placeholder="Phone Number" required>
+                    <input type="textarea" name="details" id="details" placeholder="Qulification" required>
+                    <a href="contactus.jpg"><button class="btnnn">Submit</button></a>
+                </div>
+                <header ><a1 href="https://www.instagram.com/unagarkaran642"><img src="icons8-instagram-64-removebg-preview.png" height="50"></img> </a1>
+                    <a1 href="https://www.facebook.com/unagar.karan"><img src="icons8-facebook-96.png" height="50"></img></a1>
+                    <a1 href="https://twitter.com/UnagarKaran1"><img src="icons8-twitter-96.png" height="50"></img></a1>
+                </header>
+            </form>
+           
+        </section>
+        
+        
+  
+</body>
+</html>
