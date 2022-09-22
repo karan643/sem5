@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <container>
+    <div class="content">
+        <div class="div2">
+            <h2>Log in</h2>
+            <br>
+            <h3>Email 
+                
+                <a class="account">need an account? </a> 
+                <a class="sign" href="#">sign up </a>
+            </h3>
+            <div class="email">
+                <input type="email" name="email" id="email" placeholder="Email" required>
+            </div>
+            <br>
+            <br>
+            <h3>Password:</h3> <input type="password"  id="myInput"><br><br>
+                <input type="checkbox" onclick="myFunction()">Show Password
+
+                  <script>
+                                             function myFunction() {
+                                         var x = document.getElementById("myInput");
+                                      if (x.type === "password") {
+                                    x.type = "text";
+                             } else {
+                        x.type = "password";
+                     }
+                }
+        </script>
+            
+        </div>
+        
+        </div>
+        
+    </container>
+</body>
+</html>

@@ -1,0 +1,33 @@
+.div2 {
+    width: 350px;
+    height: 500px;  
+    
+    border: 1px solid rgb(52, 138, 225);
+    border-radius: 12px;
+    
+    padding: 30px;
+    background-position: center;
+  
+     margin-left: 600px;
+}
+
+.h2{
+    color: black;
+}
+.account {
+    margin-left: 119px;
+    font-size: 15px;
+    color: rgb(42, 40, 40);
+}
+.sign{
+    color: #04aa6d;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 6px;
+}
+.email{
+    
+    
+}
+input{width :100%;}
+input{height: 35px;}
